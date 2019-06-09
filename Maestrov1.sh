@@ -68,7 +68,7 @@ echo "===============[Tool Phising]==============="
 echo $cy "[27]"$i" SocialPhish"
 echo $cy "[28]"$i" Weeman"
 echo "======================================"
-echo $me "29"Install Bahan Dulu"
+echo $me "[29]"Install Bahan Dulu"
 echo $cy "[0]"$me" EXIT"
 echo
 echo
