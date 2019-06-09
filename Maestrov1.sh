@@ -68,6 +68,7 @@ echo "===============[Tool Phising]==============="
 echo $cy "[27]"$i" SocialPhish"
 echo $cy "[28]"$i" Weeman"
 echo "======================================"
+echo $me "29"Install Bahan Dulu"
 echo $cy "[0]"$me" EXIT"
 echo
 echo
@@ -315,6 +316,19 @@ pip2 install beautifulsoup4 $y
 git clone https://github.com/samyoyo/weeman.git
 cd weeman $y
 python2 weeman.py $y
+fi
+
+if [ $pil = 29 ]
+then
+clear
+pkg install php $y
+pkg install python $y
+pkg install python2 $y
+pkg install requests $y
+pip2 install requests $y
+pip2 install mechanize $y
+pkg install mechanize $y
+pkg install apache2 $y
 fi
 
 if [ $pil = 0 ]
